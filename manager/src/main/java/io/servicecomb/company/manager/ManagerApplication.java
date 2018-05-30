@@ -37,7 +37,7 @@ public class ManagerApplication {
   // unless the active profile is not dev
   @EnableServiceComb
   @EnableDiscoveryClient
-  @Profile("!dev")
+  //@Profile("!dev")
   @Configuration
   static class ServiceCombConfig {
   }

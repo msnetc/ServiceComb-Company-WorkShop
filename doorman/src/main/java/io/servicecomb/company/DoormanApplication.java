@@ -31,7 +31,7 @@ public class DoormanApplication {
   // do not enable service registration/discovery and schema generation/registration
   // unless the active profile is not dev
   @EnableServiceComb
-  @Profile("!dev")
+  // @Profile("!dev")
   @Configuration
   static class ServiceCombConfig {
   }
